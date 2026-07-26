@@ -1,0 +1,74 @@
+{
+  "code": "bolt",
+  "class": "CombatOverhaul:Projectile",
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [
+        "bodkin",
+        "blunt",
+        "barbed"
+      ]
+    },
+    {
+      "code": "material",
+      "states": [
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "steel",
+        "meteoriciron"
+      ]
+    }
+  ],
+  "hitboxSize": {
+    "x": 0.125,
+    "y": 0.125
+  },
+  "client": {
+    "size": 0.55,
+    "renderer": "Shape",
+    "shapeByType": {
+      "*-meteoriciron": {
+        "base": "morebolts:envelop-{type}"
+      },
+      "*-steel": {
+        "base": "morebolts:envelop-{type}"
+      },
+      "*-iron": {
+        "base": "morebolts:envelop-{type}"
+      },
+      "*": {
+        "base": "morebolts:insert-{type}"
+      }
+    },
+    "texturesByType": { "*-crude": { "head": { "base": "game:block/stone/flint" } }, "*": { "head": { "base": "game:block/metal/ingot/{material}" } } },
+    "behaviors": [
+      {
+        "code": "CombatOverhaul:ProjectilePhysics",
+        "groundDragFactor": 1,
+        "airDragFactor": 1,
+        "gravityFactor": 1
+      },
+      {
+        "code": "interpolateposition"
+      }
+    ]
+  },
+  "server": {
+    "behaviors": [
+      {
+        "code": "CombatOverhaul:ProjectilePhysics",
+        "groundDragFactor": 1,
+        "airDragFactor": 1,
+        "gravityFactor": 1
+      },
+      {
+        "code": "despawn",
+        "minSeconds": 600
+      }
+    ]
+  },
+  "sounds": {}
+}

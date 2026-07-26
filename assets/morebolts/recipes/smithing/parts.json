@@ -1,0 +1,83 @@
+[
+	{
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+		"pattern": [[
+			"##_##_##",
+			"#__#__#_",
+			"________",
+			"##_##_##",
+			"#__#__#_"
+		]],
+		"name": "6 boltheads",
+		"output": { "type": "item", "code": "morebolts:part-bolthead-barbed-{metal}", "stacksize": 6  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+		"pattern": [[
+			"##_##_##",
+			"#__#__#_",
+			"________",
+			"##_##_##",
+			"#__#__#_",
+			"________",
+			"##_##_##",
+			"#__#__#_"
+		]],
+		"name": "9 boltheads",
+		"output": { "type": "item", "code": "morebolts:part-bolthead-barbed-{metal}", "stacksize": 9  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+		"pattern": [[
+			"##_##_##",
+			"#__#__#_",
+			"________",
+			"##_##_##",
+			"#__#__#_"
+		]],
+		"name": "6 boltheads",
+		"output": { "type": "item", "code": "morebolts:part-bolthead-bodkin-{metal}", "stacksize": 6  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+		"pattern": [[
+			"##_##_##",
+			"#__#__#_",
+			"________",
+			"##_##_##",
+			"#__#__#_",
+			"________",
+			"##_##_##",
+			"#__#__#_"
+		]],
+		"name": "9 boltheads",
+		"output": { "type": "item", "code": "morebolts:part-bolthead-bodkin-{metal}", "stacksize": 9  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+		"pattern": [[
+			"##_##_##",
+			"#__#__#_",
+			"________",
+			"##_##_##",
+			"#__#__#_"
+		]],
+		"name": "6 boltheads",
+		"output": { "type": "item", "code": "morebolts:part-bolthead-blunt-{metal}", "stacksize": 6  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+		"pattern": [[
+			"##_##_##",
+			"#__#__#_",
+			"________",
+			"##_##_##",
+			"#__#__#_",
+			"________",
+			"##_##_##",
+			"#__#__#_"
+		]],
+		"name": "9 boltheads",
+		"output": { "type": "item", "code": "morebolts:part-bolthead-blunt-{metal}", "stacksize": 9  }
+	}
+]

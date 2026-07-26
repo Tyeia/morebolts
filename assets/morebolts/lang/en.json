@@ -1,0 +1,27 @@
+{
+  "item-bolt-barbed-*bronze": "Bronze barbed bolt",
+  "item-bolt-barbed-iron": "Iron barbed bolt",
+  "item-bolt-barbed-meteoriciron": "Meteoric iron barbed bolt",
+  "item-bolt-barbed-steel": "Steel barbed bolt",
+  "item-bolt-blunt-*bronze": "Bronze blunt bolt",
+  "item-bolt-blunt-iron": "Iron blunt bolt",
+  "item-bolt-blunt-meteoriciron": "Meteoric iron blunt bolt",
+  "item-bolt-blunt-steel": "Steel blunt bolt",
+  "item-bolt-bodkin-*bronze": "Bronze bodkin bolt",
+  "item-bolt-bodkin-iron": "Iron bodkin bolt",
+  "item-bolt-bodkin-meteoriciron": "Meteoric iron bodkin bolt",
+  "item-bolt-bodkin-steel": "Steel bodkin bolt",
+
+  "item-part-bolthead-barbed-*bronze": "Bronze barbed bolt head",
+  "item-part-bolthead-barbed-iron": "Iron barbed bolt head",
+  "item-part-bolthead-barbed-meteoriciron": "Meteoric iron barbed bolt head",
+  "item-part-bolthead-barbed-steel": "Steel barbed bolt head",
+  "item-part-bolthead-blunt-*bronze": "Bronze blunt bolt head",
+  "item-part-bolthead-blunt-iron": "Iron blunt bolt head",
+  "item-part-bolthead-blunt-meteoriciron": "Meteoric iron blunt bolt head",
+  "item-part-bolthead-blunt-steel": "Steel blunt bolt head",
+  "item-part-bolthead-bodkin-*bronze": "Bronze bodkin bolt head",
+  "item-part-bolthead-bodkin-iron": "Iron bodkin bolt head",
+  "item-part-bolthead-bodkin-meteoriciron": "Meteoric iron bodkin bolt head",
+  "item-part-bolthead-bodkin-steel": "Steel bodkin bolt head"
+}

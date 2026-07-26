@@ -1,0 +1,17 @@
+{
+  "type": "content",
+  "modid": "morebolts",
+  "name": "More Bolts",
+  "version": "1.0.0",
+  "description": "Add more bolts for Combat Overhaul",
+  "authors": [
+    "Tyeia"
+  ],
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": {
+    "combatoverhaulfork": "0.17.8",
+    "crossbowsfork": "*"
+  }
+}

@@ -1,0 +1,35 @@
+﻿[
+  {
+    "ingredientPattern": "HSP",
+    "ingredients": {
+      "H": {"type": "item", "code": "morebolts:part-bolthead-barbed-*", "name": "metal"},
+      "S": {"type": "item", "code": "game:stick"},
+      "P": {"type": "item", "code": "game:plank-*"}
+    },
+    "width": 3,
+    "height": 1,
+    "output": {"type": "item", "code": "morebolts:bolt-barbed-{metal}", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "HSP",
+    "ingredients": {
+      "H": {"type": "item", "code": "morebolts:part-bolthead-blunt-*", "name": "metal"},
+      "S": {"type": "item", "code": "game:stick"},
+      "P": {"type": "item", "code": "game:plank-*"}
+    },
+    "width": 3,
+    "height": 1,
+    "output": {"type": "item", "code": "morebolts:bolt-blunt-{metal}", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "HSP",
+    "ingredients": {
+      "H": {"type": "item", "code": "morebolts:part-bolthead-bodkin-*", "name": "metal"},
+      "S": {"type": "item", "code": "game:stick"},
+      "P": {"type": "item", "code": "game:plank-*"}
+    },
+    "width": 3,
+    "height": 1,
+    "output": {"type": "item", "code": "morebolts:bolt-bodkin-{metal}", "quantity": 1}
+  }
+]
