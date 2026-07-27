@@ -28,8 +28,8 @@
         "layout": "Stacking",
         "placeRemoveSound": "game:sounds/block/ceramicplace",
         "stackingModelByType": {
-          "*-crude": "maltiezcrossbows:ammo/pile-crude-bolts",
-          "*": "maltiezcrossbows:ammo/pile-bolts-fletched"
+          "*-crude": "maltiezcrossbows:shapes/pile-crude-bolts",
+          "*": "maltiezcrossbows:shapes/pile-bolts"
         },
         "modelItemsToStackSizeRatio": 4.2,
         "stackingCapacity": 160,
