@@ -27,7 +27,7 @@
     "y": 0.125
   },
   "client": {
-    "size": 0.55,
+    "size": 1,
     "renderer": "Shape",
     "shapeByType": {
       "*-meteoriciron": {
